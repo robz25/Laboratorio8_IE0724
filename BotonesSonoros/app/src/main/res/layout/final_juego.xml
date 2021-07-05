@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <EditText
+        android:id="@+id/nombreJugador"
+        android:layout_width="150dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Ingresa tu nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignTop="@+id/nombreJugador"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:layout_toStartOf="@+id/nombreJugador"
+        android:text="Jugador:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/nombreJugador"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- android:layout_alignStart="@+id/botonJuegoNuevoFinal"
+    android:layout_alignEnd="@+id/bonotnOKFinal" -->
+
+
+    <!--<TextView
+         android:id="@+id/puntosFinales"
+         android:layout_width="250dp"
+         android:layout_height="56dp"
+         android:layout_alignEnd="@+id/nombreJugador"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginStart="80dp"
+         android:layout_marginTop="30dp"
+         android:layout_marginEnd="1dp"
+         android:text="Puntaje:"
+         android:textSize="34sp" />
+
+     <Button
+         android:id="@+id/botonJuegoNuevoFinal"
+         android:layout_width="150dp"
+         android:layout_height="60dp"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="197dp"
+         android:layout_marginEnd="23dp"
+         android:layout_toStartOf="@+id/bonotnOKFinal"
+         android:text="Juego nuevo"
+         app:backgroundTint="#4AC545" />
+
+     <Button
+         android:id="@+id/bonotnOKFinal"
+         android:layout_width="80dp"
+         android:layout_height="60dp"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentEnd="true"
+         android:layout_marginTop="197dp"
+         android:layout_marginEnd="78dp"
+         android:text="Ok"
+         app:backgroundTint="#000000" /> -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

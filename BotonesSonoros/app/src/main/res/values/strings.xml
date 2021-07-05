@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SimonSimon</string>
+    <string name="edit_message">Ingresa tu nombre</string>
+    <string name="button_send">Enviar</string>
+    <string name="button_1">A</string>
+    <string name="button_2">B</string>
+    <string name="button_3">C</string>
+    <string name="button_4">D</string>
+    <string name="button_5">E</string>
+    <string name="button_6">F</string>
+    <string name="inicio">Jugar</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="puntuacionActual">Puntos:</string>
+    <string name="salirAlMenu">Salir</string>
+    <string name="tablaDePuntos">Puntuaciones</string>
+    <string name="acercaDe">Información</string>
+
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544~3347511713</string>
+</resources>
